@@ -108,12 +108,14 @@ function HomePage() {
                 Data Scientist Jr · QA Background · Personal Brand
               </p>
               <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-                Hola, soy <span className="text-cyan-300">Francisco</span>
+                Hi, I'm <span className="text-cyan-300">Francisco</span>
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-                Construyo proyectos de datos con enfoque en claridad, calidad y valor de negocio.
-                Mi objetivo es transformar análisis, modelos y visualizaciones en historias que
-                comuniquen impacto real.
+                My goal is to transform data analysis, machine learning models, and 
+                visualizations into actionable insights that support data-driven decisions. 
+                I focus on identifying relevant patterns in data and communicating results 
+                clearly to both technical and non-technical stakeholders, ensuring that 
+                analytical work translates into real business value.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
@@ -140,9 +142,19 @@ function HomePage() {
                   </span>
                 </div>
                 <p className="text-slate-300 leading-7">
-                  Perfil en transición hacia Data Science y Machine Learning, con base sólida en QA,
-                  validación, pensamiento analítico y atención al detalle. Experiencia desarrollando
-                  proyectos con Python, SQL, modelado, evaluación y storytelling con datos.
+                  Transition is a natural part of human development: learning, adapting, and continuously evolving. 
+                  In my case, that journey led me from the world of QA into the field of Data Science, where I discovered 
+                  the opportunity to turn data into meaningful insights and data-driven decisions.
+
+                  Today, I am developing my career in Data Science and Machine Learning, building analytical solutions 
+                  that combine data exploration, modeling, and rigorous evaluation. My background in QA strengthened my 
+                  attention to detail, validation mindset, and focus on data quality—skills that are essential when working 
+                  with data and machine learning models.
+
+                  I have developed projects using Python and SQL for data analysis, feature engineering, and predictive 
+                  modeling, applying machine learning techniques and evaluation metrics to assess model performance. I enjoy 
+                  working across the full analytical workflow, from exploratory data analysis and data preparation to model 
+                  development and communicating insights through data storytelling.
                 </p>
                 <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
