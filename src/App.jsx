@@ -312,7 +312,7 @@ function HomePage() {
 
                 <a
                   className="rounded-2xl border border-white/15 px-6 py-3 font-medium"
-                  href="https://github.com/TU-USUARIO"
+                  href="https://github.com/jfrf98"
                   target="_blank"
                   rel="noreferrer"
                 >
