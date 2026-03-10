@@ -28,33 +28,31 @@ const projects = [
     demo: "https://tu-demo-autos.streamlit.app",
   },
   {
-    slug: "analisis-churn-clientes",
-    title: "Análisis de churn de clientes",
-    subtitle: "Clasificación · EDA · Métricas de negocio",
+    slug: "online-gaming-bahavior",
+    title: "Online Gaming Behavior",
+    subtitle: "Analysis · EDA · Predictive Modeling",
     description:
-      "Proyecto orientado a detectar clientes con riesgo de abandono, conectando variables clave con decisiones de retención.",
+      "This project is oriented on the behavioral analysis of online gamers to detect the best correlation between key variables to predict the level of gaming engagement",
     impact:
-      "Traducción de resultados técnicos a recomendaciones accionables para negocio.",
+      "Player retention, personlized marketing, game development and monetization strategy.",
     problem:
-      "El objetivo fue identificar clientes con alta probabilidad de abandono para apoyar estrategias de retención y priorización comercial.",
+      "Identifying players bahavior to understand critical feature to predict, in this case level of engagement, to avoid gamers churn and develop new strategies for retention and improve players engagement.",
     approach:
-      "Se desarrolló análisis exploratorio, transformación de variables, entrenamiento de modelos de clasificación y comparación con métricas alineadas al negocio.",
+      "Exploratory analysis, feature engineering, classifcation model training and metrics comparison align with business rules.",
     metrics:
-      ["F1-score para balancear precision y recall", "AUC-ROC para evaluar capacidad discriminativa", "Análisis de matriz de confusión"],
+      ["F1-score for balancing precision and recall", "AUC-ROC to evaluate discriminative capabilty", "Confusion Matrix Analysis"],
     result:
-      "El proyecto permitió detectar patrones de abandono y convertirlos en una lógica accionable para negocio y retención de clientes.",
-    stack: ["Python", "Pandas", "Scikit-learn", "EDA", "Classification"],
-    dataset: "Dataset de clientes con variables demográficas, de uso del servicio y comportamiento histórico.",
+      "The project allowed detecting patterns in gamers behavior converting them into actionable logic, detecting key feature to make our predictive target. We find out that our different model were all good enough to be used in production, its just a matter of which has the best computational processing.",
+    stack: ["Python", "Pandas", "Scikit-learn", "EDA", "Classification","Model Evaluation", "XGBoost", "Catboost","AUC-ROC","Precision","Accuracy","Recall", "F1 Score"],
+    dataset: "Dataset with demographic variables, time spent in games and categorical variables such as game genre and level of egangement.",
     learnings: [
-      "No siempre la accuracy es la mejor métrica",
-      "El problema de churn requiere conectar modelo con impacto de negocio",
-      "El análisis exploratorio mejora mucho la calidad del modelado",
+      "This project demonstrates how player behavior data can be leveraged to predict engagement levels using machine learning. The results show that gameplay intensity and progression metrics are the strongest indicators of engagement, highlighting the importance of activity patterns in understanding player commitment."
     ],
-    github: "https://github.com/tuusuario/proyecto-churn",
+    github: "https://github.com/jfrf98/Online_Gaming_Behavior",
     demo: "https://tu-demo-churn.streamlit.app",
   },
   {
-    slug: "dashboards-analisis-datos",
+    slug: "dashboards-data-analysis",
     title: "Dashboards y análisis de datos",
     subtitle: "Python · SQL · Storytelling",
     description:
@@ -105,7 +103,7 @@ function HomePage() {
           <div className="grid items-center gap-10 md:grid-cols-[1fr_1.4fr]">
             <div>
               <p className="mb-4 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-1 text-sm text-cyan-200">
-                Data Scientist Jr · QA Background · Personal Brand
+                Data Scientist · QA Background · Personal Brand
               </p>
               <h1 className="text-4xl font-bold leading-tight md:text-6xl">
                 Hi, I'm <span className="text-cyan-300">Francisco</span>
@@ -122,13 +120,13 @@ function HomePage() {
                   href="#proyectos"
                   className="rounded-2xl bg-cyan-400 px-6 py-3 font-medium text-slate-950 shadow-lg transition hover:scale-[1.02]"
                 >
-                  Ver proyectos
+                  Projects
                 </a>
                 <a
                   href="#contacto"
                   className="rounded-2xl border border-white/15 px-6 py-3 font-medium text-slate-100 transition hover:bg-white/5"
                 >
-                  Contacto
+                  Contact
                 </a>
               </div>
             </div>
@@ -136,7 +134,7 @@ function HomePage() {
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl backdrop-blur">
               <div className="rounded-2xl border border-cyan-400/20 bg-slate-900 p-6">
                 <div className="mb-4 flex items-center justify-between">
-                  <h2 className="text-xl font-semibold">Resumen profesional</h2>
+                  <h2 className="text-xl font-semibold">Professional Summary</h2>
                   <span className="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
                     Open to new opportunities
                   </span>
@@ -145,43 +143,24 @@ function HomePage() {
                   <div className="w-full text-slate-300 leading-8 space-y-4">
 
                     <p>
-                      Hi, my name is Paco, and I’m currently transitioning into the field of Data Science.
-                      My career started in QA, where I developed a strong attention to detail and a rigorous
-                      approach to data quality and validation. Over time, I realized that what motivated me
-                      the most was analyzing data, identifying patterns, and understanding how information
-                      could support better decision-making, which led me to specialize in Data Science.
+                      Data Scientist with hands-on experience in end-to-end machine learning workflows, predictive modeling, 
+                      and large-scale data analysis. Skilled in data curation, feature engineering, model evaluation, and 
+                      quality assessment across multiple business use cases. Experienced in working with structured and 
+                      unstructured data, leveraging Python and SQL to build analytical pipelines and support model development. 
+                      Strong experimental mindset with attention to detail and ability to translate technical findings into business 
+                      insights. Background in QA testing enhances rigor in validation, data governance, and quality control processes.
                     </p>
 
-                    <p>
-                      Today I mainly work with Python and SQL, using tools such as Pandas, NumPy,
-                      and Scikit-learn to analyze datasets, build models, and explore different
-                      machine learning approaches. I’m particularly interested in data analysis,
-                      modeling, and generating insights that can have a real impact on products
-                      or business processes.
-                    </p>
-
-                    <p>
-                      One of the things I enjoy most about data science is the ability to connect
-                      technical analysis with human and business perspectives. I like translating
-                      complex technical work into clear insights that both technical and
-                      non-technical teams can understand and use to make data-driven decisions.
-                    </p>
-
-                    <p>
-                      At this stage, I’m looking for opportunities where I can continue growing
-                      as a data scientist, collaborate with multidisciplinary teams, and keep
-                      learning while creating meaningful value through data.
-                    </p>
                   </div>
                 </div>
                 <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                    <p className="text-slate-400">Enfoque</p>
-                    <p className="mt-1 font-medium">ML, análisis y portafolio profesional</p>
+                    <p className="text-slate-400">Focus</p>
+                    <p className="mt-1 font-medium">ML, data analysis and modeling</p>
                   </div>
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                    <p className="text-slate-400">Fortaleza</p>
-                    <p className="mt-1 font-medium">Rigor analítico + mentalidad de negocio</p>
+                    <p className="text-slate-400">Strengths</p>
+                    <p className="mt-1 font-medium">Analitical criteria + Business perspective</p>
                   </div>
                 </div>
               </div>
@@ -194,24 +173,23 @@ function HomePage() {
         <div className="grid gap-10 md:grid-cols-[1.1fr_0.9fr]">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-              Sobre mí
+              About Me
             </p>
-            <h2 className="mt-3 text-3xl font-bold md:text-4xl">Datos, negocio y comunicación</h2>
+            <h2 className="mt-3 text-3xl font-bold md:text-4xl">Data, Business and Communication</h2>
             <p className="mt-6 text-slate-300 leading-8">
-              Me interesa construir una carrera sólida como Data Scientist / ML Engineer. Estoy
-              desarrollando proyectos donde combino análisis exploratorio, modelado, validación y
-              narrativa visual para presentar soluciones más profesionales, legibles y alineadas con
-              necesidades reales del negocio.
+              I am interested in building a solid career as a Data Scientist / ML Engineer. I am
+              developing projects where I combine exploratory analysis, modeling, and validation with
+              visual narrative and presenting professional solutions, readability and alignment with real business needs.
             </p>
             <p className="mt-4 text-slate-300 leading-8">
-              Mi experiencia en QA fortaleció mi disciplina, mi atención al detalle y mi enfoque en la
-              calidad, lo que hoy se traduce en mejores prácticas para trabajar con datos, pipelines y
-              modelos de machine learning.
+              My experience in QA strengthened my discipline, attention to detail and focus on quality,
+              which today translates into better practices for working with data, pipelines and
+              machine learning models.
             </p>
           </div>
 
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <h3 className="text-xl font-semibold">Stack principal</h3>
+            <h3 className="text-xl font-semibold">Tech Stack</h3>
             <div className="mt-6 flex flex-wrap gap-3">
               {skills.map((skill) => (
                 <span
@@ -229,13 +207,15 @@ function HomePage() {
       <section id="proyectos" className="border-y border-white/10 bg-white/5">
         <div className="mx-auto max-w-6xl px-6 py-20">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-            Proyectos destacados
+            Featured Projects
           </p>
           <div className="mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-            <h2 className="text-3xl font-bold md:text-4xl">Trabajo técnico con enfoque profesional</h2>
+            <h2 className="text-3xl font-bold md:text-4xl">Technical Work with Professional Focus</h2>
             <p className="max-w-2xl text-slate-300 leading-7">
-              Cada proyecto busca demostrar capacidad técnica, estructura, criterio analítico y conexión
-              con impacto de negocio.
+              Each project aims to demonstrate technical capability, structure, analytical criteria and connection
+              with business impact. The goal is to show not only the technical solution, but also the process, 
+              learnings and value generated in each case, presenting valuable insights and patterns for a better
+              understanding of the work done and the potential solutions.
             </p>
           </div>
 
@@ -259,7 +239,7 @@ function HomePage() {
                     to={`/proyecto/${project.slug}`}
                     className="inline-block rounded-2xl border border-white/10 px-4 py-2 text-sm transition hover:bg-white/5"
                   >
-                    Ver caso
+                    See details
                   </Link>
                   <a
                     href={project.github}
@@ -287,21 +267,21 @@ function HomePage() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="grid gap-6 md:grid-cols-3">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <h3 className="text-lg font-semibold">Python y ML</h3>
+            <h3 className="text-lg font-semibold">Python & MachineLearning</h3>
             <p className="mt-3 text-slate-300 leading-7">
-              Desarrollo de notebooks y pipelines para clasificación, regresión, evaluación y mejora de modelos.
+              Develope notebooks and pipelines for classification, regression, evaluation and improvement of models.
             </p>
           </div>
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <h3 className="text-lg font-semibold">SQL y análisis</h3>
+            <h3 className="text-lg font-semibold">SQL & analysis</h3>
             <p className="mt-3 text-slate-300 leading-7">
-              Consultas, limpieza, exploración y transformación de datos para responder preguntas de negocio.
+              Queries, data cleaning, exploration and transformation to answer business questions.
             </p>
           </div>
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
             <h3 className="text-lg font-semibold">Storytelling</h3>
             <p className="mt-3 text-slate-300 leading-7">
-              Comunicación clara de hallazgos con visualizaciones, estructura narrativa e impacto ejecutivo.
+              Clear communication of findings with visualizations, narrative structure and executive impact.
             </p>
           </div>
         </div>
@@ -312,8 +292,9 @@ function HomePage() {
           <div className="rounded-[2rem] border border-cyan-400/20 bg-gradient-to-br from-cyan-400/10 to-emerald-400/10 p-8 md:p-10">
             <h2 className="text-3xl font-bold md:text-4xl">Construyamos algo juntos</h2>
             <p className="mt-4 max-w-2xl text-slate-300 leading-8">
-              Estoy buscando oportunidades para crecer en Data Science, Data Analytics y Machine Learning.
-              También me interesa colaborar en proyectos donde los datos ayuden a tomar mejores decisiones.
+              I'm looking for new opportunities to develop and grow in Data Science, Data Analytics and Machine Learning. 
+              I am also interested in collaborating on projects where data helps to make strategic decisions for a with 
+              real business impact.
             </p>
             <div className="mt-8 flex flex-col items-center gap-6">
 
@@ -340,7 +321,7 @@ function HomePage() {
 
               {/* formulario */}
               <form
-                action="https://formspree.io/f/TU_FORM_ID"
+                action="https://formspree.io/f/mgonepqj"
                 method="POST"
                 className="flex flex-col gap-4 w-full max-w-md"
               >
@@ -364,7 +345,7 @@ function HomePage() {
                   type="submit"
                   className="rounded-xl bg-cyan-400 px-6 py-3 font-medium text-slate-950"
                 >
-                  Enviar mensaje
+                  Send message
                 </button>
               </form>
             </div>
@@ -387,7 +368,7 @@ function ProjectPage() {
             to="/"
             className="inline-block rounded-2xl border border-white/10 px-4 py-2 text-sm hover:bg-white/5"
           >
-            ← Volver al inicio
+            ← Home
           </Link>
           <h1 className="mt-8 text-4xl font-bold">Proyecto no encontrado</h1>
         </div>
@@ -403,11 +384,11 @@ function ProjectPage() {
             to="/"
             className="inline-block rounded-2xl border border-white/10 px-4 py-2 text-sm transition hover:bg-white/5"
           >
-            ← Volver al inicio
+            ← Home
           </Link>
 
           <p className="mt-10 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-            Caso de estudio
+            Case Study
           </p>
           <h1 className="mt-3 text-4xl font-bold md:text-6xl">{project.title}</h1>
           <p className="mt-4 text-lg text-cyan-200">{project.subtitle}</p>
@@ -422,7 +403,7 @@ function ProjectPage() {
               rel="noreferrer"
               className="rounded-2xl border border-cyan-400/20 bg-cyan-400/10 px-5 py-3 font-medium text-cyan-100 transition hover:bg-cyan-400/20"
             >
-              Ver GitHub
+              See GitHub
             </a>
             <a
               href={project.demo}
@@ -430,7 +411,7 @@ function ProjectPage() {
               rel="noreferrer"
               className="rounded-2xl bg-cyan-400 px-5 py-3 font-medium text-slate-950 transition hover:opacity-90"
             >
-              Ver demo
+              See demo
             </a>
           </div>
         </div>
@@ -439,12 +420,12 @@ function ProjectPage() {
       <section className="mx-auto max-w-5xl px-6 py-16">
         <div className="grid gap-6 md:grid-cols-2">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <h2 className="text-xl font-semibold">Problema de negocio</h2>
+            <h2 className="text-xl font-semibold">Business Problem</h2>
             <p className="mt-4 leading-7 text-slate-300">{project.problem}</p>
           </div>
 
           <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <h2 className="text-xl font-semibold">Enfoque técnico</h2>
+            <h2 className="text-xl font-semibold">Technical approach</h2>
             <p className="mt-4 leading-7 text-slate-300">{project.approach}</p>
           </div>
 
@@ -454,14 +435,14 @@ function ProjectPage() {
           </div>
 
           <div className="rounded-3xl border border-emerald-400/15 bg-emerald-400/5 p-6">
-            <h2 className="text-xl font-semibold text-emerald-300">Resultado / impacto</h2>
+            <h2 className="text-xl font-semibold text-emerald-300">Result / Impact</h2>
             <p className="mt-4 leading-7 text-slate-200">{project.result}</p>
           </div>
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           <div className="rounded-3xl border border-white/10 bg-slate-900 p-6">
-            <h2 className="text-xl font-semibold">Métricas / evaluación</h2>
+            <h2 className="text-xl font-semibold">MMetrics / Evaluation</h2>
             <ul className="mt-4 space-y-3 text-slate-300">
               {project.metrics.map((metric) => (
                 <li key={metric} className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
@@ -472,7 +453,7 @@ function ProjectPage() {
           </div>
 
           <div className="rounded-3xl border border-white/10 bg-slate-900 p-6">
-            <h2 className="text-xl font-semibold">Aprendizajes</h2>
+            <h2 className="text-xl font-semibold">Learnings</h2>
             <ul className="mt-4 space-y-3 text-slate-300">
               {project.learnings.map((learning) => (
                 <li
@@ -487,7 +468,7 @@ function ProjectPage() {
         </div>
 
         <div className="mt-10 rounded-3xl border border-white/10 bg-slate-900 p-6">
-          <h2 className="text-xl font-semibold">Stack utilizado</h2>
+          <h2 className="text-xl font-semibold">Stack utilized</h2>
           <div className="mt-6 flex flex-wrap gap-3">
             {project.stack.map((item) => (
               <span
