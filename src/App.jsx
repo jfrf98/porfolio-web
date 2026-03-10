@@ -102,7 +102,7 @@ function HomePage() {
       <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 bg-gradient-to-br from-sky-500/10 via-cyan-400/5 to-emerald-400/10" />
         <div className="relative mx-auto max-w-6xl px-6 py-20 md:py-28">
-          <div className="grid items-center gap-10 md:grid-cols-2">
+          <div className="grid items-center gap-10 md:grid-cols-[1fr_1.4fr]">
             <div>
               <p className="mb-4 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-1 text-sm text-cyan-200">
                 Data Scientist Jr · QA Background · Personal Brand
@@ -138,25 +138,41 @@ function HomePage() {
                 <div className="mb-4 flex items-center justify-between">
                   <h2 className="text-xl font-semibold">Resumen profesional</h2>
                   <span className="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
-                    Disponible para oportunidades
+                    Open to new opportunities
                   </span>
                 </div>
-                <div className="max-w-3xl text-slate-300 leading-7 space-y-4">
-                  Hi, my name is Paco, and I’m currently transitioning into the field of Data Science. My career started in QA, 
-                  where I developed a strong attention to detail and a rigorous approach to data quality and validation. Over time, 
-                  I realized that what motivated me the most was analyzing data, identifying patterns, and understanding how 
-                  information could support better decision-making, which led me to specialize in Data Science.
+                <div className="flex flex-col items-center text-left">
+                  <div className="w-full text-slate-300 leading-8 space-y-4">
 
-                  Today I mainly work with Python and SQL, using tools such as Pandas, NumPy, and Scikit-learn to analyze datasets, 
-                  build models, and explore different machine learning approaches. I’m particularly interested in data analysis, modeling, 
-                  and generating insights that can have a real impact on products or business processes.
+                    <p>
+                      Hi, my name is Paco, and I’m currently transitioning into the field of Data Science.
+                      My career started in QA, where I developed a strong attention to detail and a rigorous
+                      approach to data quality and validation. Over time, I realized that what motivated me
+                      the most was analyzing data, identifying patterns, and understanding how information
+                      could support better decision-making, which led me to specialize in Data Science.
+                    </p>
 
-                  One of the things I enjoy most about data science is the ability to connect technical analysis with human and business 
-                  perspectives. I like translating complex technical work into clear insights that both technical and non-technical teams 
-                  can understand and use to make data-driven decisions.
+                    <p>
+                      Today I mainly work with Python and SQL, using tools such as Pandas, NumPy,
+                      and Scikit-learn to analyze datasets, build models, and explore different
+                      machine learning approaches. I’m particularly interested in data analysis,
+                      modeling, and generating insights that can have a real impact on products
+                      or business processes.
+                    </p>
 
-                  At this stage, I’m looking for opportunities where I can continue growing as a data scientist, collaborate with m
-                  ultidisciplinary teams, and keep learning while creating meaningful value through data.
+                    <p>
+                      One of the things I enjoy most about data science is the ability to connect
+                      technical analysis with human and business perspectives. I like translating
+                      complex technical work into clear insights that both technical and
+                      non-technical teams can understand and use to make data-driven decisions.
+                    </p>
+
+                    <p>
+                      At this stage, I’m looking for opportunities where I can continue growing
+                      as a data scientist, collaborate with multidisciplinary teams, and keep
+                      learning while creating meaningful value through data.
+                    </p>
+                  </div>
                 </div>
                 <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -305,7 +321,7 @@ function HomePage() {
               <div className="flex gap-4">
                 <a
                   className="rounded-2xl bg-cyan-400 px-6 py-3 font-medium text-slate-950"
-                  href="https://www.linkedin.com/in/jfrf98"
+                  href="https://www.linkedin.com/in/franciscorodriguez-datascientist/"
                   target="_blank"
                   rel="noreferrer"
                 >
