@@ -303,7 +303,7 @@ function HomePage() {
               <div className="flex gap-4">
                 <a
                   className="rounded-2xl bg-cyan-400 px-6 py-3 font-medium text-slate-950"
-                  href="https://www.linkedin.com/in/TU-USUARIO"
+                  href="https://www.linkedin.com/in/jfrf98"
                   target="_blank"
                   rel="noreferrer"
                 >
