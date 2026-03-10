@@ -140,33 +140,24 @@ function HomePage() {
                   <span className="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
                     Disponible para oportunidades
                   </span>
-              <div className="flex flex-col items-center text-center"> 
-                <div className="mt-6 max-w-4xl text-slate-300 leading-8 space-y-4">
-                  <p>
+                </div>
+                <div className="max-w-3xl text-slate-300 leading-7 space-y-4">
                   Hi, my name is Paco, and I’m currently transitioning into the field of Data Science. My career started in QA, 
                   where I developed a strong attention to detail and a rigorous approach to data quality and validation. Over time, 
                   I realized that what motivated me the most was analyzing data, identifying patterns, and understanding how 
                   information could support better decision-making, which led me to specialize in Data Science.
-                  </p>
-                  
-                  <p>
+
                   Today I mainly work with Python and SQL, using tools such as Pandas, NumPy, and Scikit-learn to analyze datasets, 
                   build models, and explore different machine learning approaches. I’m particularly interested in data analysis, modeling, 
                   and generating insights that can have a real impact on products or business processes.
-                  </p>
 
-                  <p>
                   One of the things I enjoy most about data science is the ability to connect technical analysis with human and business 
                   perspectives. I like translating complex technical work into clear insights that both technical and non-technical teams 
                   can understand and use to make data-driven decisions.
-                  </p>
-                  
-                  <p>
+
                   At this stage, I’m looking for opportunities where I can continue growing as a data scientist, collaborate with m
                   ultidisciplinary teams, and keep learning while creating meaningful value through data.
-                  </p>
                 </div>
-              </div>
                 <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                     <p className="text-slate-400">Enfoque</p>
