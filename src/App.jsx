@@ -142,19 +142,21 @@ function HomePage() {
                   </span>
                 </div>
                 <p className="text-slate-300 leading-7">
-                  Transition is a natural part of human development: learning, adapting, and continuously evolving. 
-                  In my case, that journey led me from the world of QA into the field of Data Science, where I discovered 
-                  the opportunity to turn data into meaningful insights and data-driven decisions.
+                  Hi, my name is Paco, and I’m currently transitioning into the field of Data Science. My career started in QA, 
+                  where I developed a strong attention to detail and a rigorous approach to data quality and validation. Over time, 
+                  I realized that what motivated me the most was analyzing data, identifying patterns, and understanding how 
+                  information could support better decision-making, which led me to specialize in Data Science.
 
-                  Today, I am developing my career in Data Science and Machine Learning, building analytical solutions 
-                  that combine data exploration, modeling, and rigorous evaluation. My background in QA strengthened my 
-                  attention to detail, validation mindset, and focus on data quality—skills that are essential when working 
-                  with data and machine learning models.
+                  Today I mainly work with Python and SQL, using tools such as Pandas, NumPy, and Scikit-learn to analyze datasets, 
+                  build models, and explore different machine learning approaches. I’m particularly interested in data analysis, modeling, 
+                  and generating insights that can have a real impact on products or business processes.
 
-                  I have developed projects using Python and SQL for data analysis, feature engineering, and predictive 
-                  modeling, applying machine learning techniques and evaluation metrics to assess model performance. I enjoy 
-                  working across the full analytical workflow, from exploratory data analysis and data preparation to model 
-                  development and communicating insights through data storytelling.
+                  One of the things I enjoy most about data science is the ability to connect technical analysis with human and business 
+                  perspectives. I like translating complex technical work into clear insights that both technical and non-technical teams 
+                  can understand and use to make data-driven decisions.
+
+                  At this stage, I’m looking for opportunities where I can continue growing as a data scientist, collaborate with m
+                  ultidisciplinary teams, and keep learning while creating meaningful value through data.
                 </p>
                 <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
