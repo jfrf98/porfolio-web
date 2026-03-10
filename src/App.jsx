@@ -154,11 +154,13 @@ function HomePage() {
                   build models, and explore different machine learning approaches. I’m particularly interested in data analysis, modeling, 
                   and generating insights that can have a real impact on products or business processes.
                   </p>
+
                   <p>
                   One of the things I enjoy most about data science is the ability to connect technical analysis with human and business 
                   perspectives. I like translating complex technical work into clear insights that both technical and non-technical teams 
                   can understand and use to make data-driven decisions.
                   </p>
+                  
                   <p>
                   At this stage, I’m looking for opportunities where I can continue growing as a data scientist, collaborate with m
                   ultidisciplinary teams, and keep learning while creating meaningful value through data.
