@@ -140,8 +140,8 @@ function HomePage() {
                   <span className="rounded-full bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
                     Disponible para oportunidades
                   </span>
-                <div className="flex flex-col items-center text-center"> 
-                <div className="max-w-4xl text-slate-300 leading-7 space-y-4">
+              <div className="flex flex-col items-center text-center"> 
+                <div className="mt-6 max-w-4xl text-slate-300 leading-8 space-y-4">
                   <p>
                   Hi, my name is Paco, and I’m currently transitioning into the field of Data Science. My career started in QA, 
                   where I developed a strong attention to detail and a rigorous approach to data quality and validation. Over time, 
@@ -164,6 +164,7 @@ function HomePage() {
                   ultidisciplinary teams, and keep learning while creating meaningful value through data.
                   </p>
                 </div>
+              </div>
                 <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
                   <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                     <p className="text-slate-400">Enfoque</p>
